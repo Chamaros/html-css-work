@@ -1,0 +1,71 @@
+
+/*
+CREATING A CLASS FOR STYLING MULTIPLE ELEMENTS
+CLASS THE IS THE MOST COMMON WAY TO APPLY CSS
+*/
+.my-style
+{
+    color: blueviolet; 
+    font-size: 40px;
+     font-family: 'Courier New', Courier, monospace;
+     background-color:lightgray;
+     text-align: right;
+}
+/*
+# MEANS ID
+ID IS USED FOR UNIQUE ELEMENTS
+ID MUST BE UNIQUE. CLASS CAN BE REPEATED
+CLASS IS USED FOR STYLING MORE THAN ONE ELEMENTS- MULTIPLE ELEMENTS AT THE SAME TIME
+*/
+#my-unique-style
+{
+color: aqua;
+background-color: blueviolet
+}
+
+.img1{
+    width: 200px ;
+    height: 140px;
+    border: 5px solid red;
+    margin: 10px;
+
+}
+.img2{
+    width: 200px;
+    height: 150px;
+    border: 5px dashed green;
+    padding: 10px;
+}
+h1{
+    color: orange;
+    font-size: 20px;
+    background-color: black; 
+    font-family:cursive;
+}
+h2{
+    color: orange;
+    font-size: 20px;
+    background-color: black; 
+    font-family:cursive;
+}
+h4{
+    color: gold; 
+    font-size: 45px;
+     font-family: 'Courier New', Courier, monospace;
+     background-color: lightblue;
+     text-align: right;
+}
+
+
+table {
+    border: 1px solid red;
+    background-color:lightgray;
+    box-shadow: 3px 3px 3px white;
+}
+th{
+    border: 1px solid red;
+}
+td{ 
+    border: 1px solid purple;
+    color: green;
+}

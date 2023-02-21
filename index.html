@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--PROJECT RELATED INFO GOES HERE-->
+<title>My Website</title>
+<!--EXTERNAL CSS ICIN STYLES.CSS SAYFASINI OLUSTURUYORUZ AYRICA ASAGIDAKI BAGLANTIYI YAPIYORUZ-->
+<link rel="stylesheet" type="text/css"  href="styles.css">
+      <!--INTERNAL CSS USING STYLE TAG IN THE HEAD-->
+   <!--type OLMASA DA CALISIYOR AMA USUL OLARAK KOYUYORUZ-->
+   <!-- internal css line 9 dan BASLIYOR. 34 DE BITIYOR
+<style type="text/css">
+    
+    
+   
+    
+    h1{
+        color: orange;
+        font-size: 20px;
+        background-color: black; 
+        font-family:cursive;
+    }
+    h2{
+        color: orange;
+        font-size: 20px;
+        background-color: black; 
+        font-family:cursive;
+    }
+    h4{
+        color: gold; 
+        font-size: 45px;
+         font-family: 'Courier New', Courier, monospace;
+         background-color: lightblue;
+         text-align: right;
+    }
+
+</style>
+-->
+    </head>
+    <body style="background-color: pink;" >
+        <a href="#bottom ">Click me!</a>
+        <br>
+        <br>
+        <a href="pages\sign_up.html" target="_blank">SIGN UP</a>
+        
+             <!--PAGE CONTENT GOES HERE-->
+            <h1 style="color: red;font-size: 50px; font-family:cursive;background-color: #00b300;">My Information</h1>
+            <h1 class="my-style"> My internal Example</h1>
+           <p>I live in <strong>USA  </strong> <br> USA has freedom. <br>I live in the east coast of USA.<hr><hr>
+           </p>
+            <h2 style="color: blue;background-color: #00b300;"> Header 2</h2>
+            <H2 class="my-style">INTERNAL EXAMPLE 2</H2>
+            <H2>******** iframe  ORNEGI WIKIPEDIA DAN  *********</H2>
+            <iframe 
+             style="width:100%;height: 300px;"  src="https://tr.wikipedia.org/wiki/Anasayfa" frameborder="0"></iframe>
+            <h3 style="font-size: 40px;">Header 3 </h3>
+            <h3>*****ADDING YOUTUBE VIDEO********</h3
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2cMdTLpWeQc" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <h2> *****INSERTING MAPS EKLEME ******</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.388143792246!2d28.706796714949583!3d41.060507579295425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7d99eba04df%3A0xd4a5fbe44d54962e!2sbir%20%C4%B0stanbul%20evler!5e0!3m2!1str!2str!4v1677004303065!5m2!1str!2str"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3 class="my-style">****IMAGES*****</h3>
+            <img 
+            class="img1" 
+            src="images\sunflower-1627193_1920.jpg"
+            alt="sunflower_img"/>
+            <br>
+            
+            <img 
+            class="img2" 
+            src="images\Stages-germination-bean-seed.webp"
+            alt="seed"/>
+
+            <h4 style="color: #00b300;">*******TEXT LINKS****** </h4>
+            <a href="https://techproeducation.com/">techproeducation</a>
+            <br>
+            <br>
+            <a href="https://techproeducation.com/" target="_blank">techproeducation</a>
+            <h4 class="my-style">*******IMAGE LINKS******</h4>
+            <a href="https://techproeducation.com/" target="_blank">
+                <img 
+                class="img1" 
+                src="images\techproeducation logo.png" 
+                alt="logo_techproed" />
+            </a>
+            <h5>*****UNORDERED LIST *******</h5>
+            <ul style="font-size: 50px; list-style-type: lower-greek;">
+                <li>Apple</li>
+                <li>Peach</li>
+                <li>Banana</li>
+            </ul>
+            <br>
+
+            <h5 class="my-style;">*****ORDERED LIST *******</h5>
+            <ol style="list-style-type:decimal-leading-zero">
+                <li>Apple</li>
+                <li>Peach</li>
+                <li>Banana</li>
+            </ol>
+            <br>
+            <h5>*****JUST LIST *******</h5>
+            <li>Apple</li>
+            <li>Peach</li>
+            <li>Banana</li>
+            <h5 style="font-family:cursive;"> Header 5 </h5>
+            <h5 style="font-size: 40px;font-family: Arial, Helvetica, sans-serif;">******CREATING TABLE EXAMPLE******</h5>
+            <table>
+                <thead>
+                    <th >NAME</th>
+                    <th>CITY</th>
+                    <th>PHONE</th>
+                </thead>
+                <tr>
+                    <td>John</td>
+                    <td>Dallas</td>
+                    <td>1234</td>
+                </tr>
+                <tr >
+                    <td>Ali</td>
+                    <TD>Texas</TD>
+                    <td>012345</td>
+                </tr>
+            </table>
+            <h5 id="my-unique-style">ID- UNIQUE -EXAMPLE </h5>
+            <h6 style="text-align: center;font-size: 220%;background-color:palegoldenrod;">Header 6 </h6>
+            <!--asagidaki 2. yontem sadece sitenin asagisina gonderdigimizde gordugumuz
+            ilk satir ise sitenin en yukarisina gitmek icin yazilan kod
+        ilk satirda id kismini koymasak da en yukari yine de goturuyor-->
+            <a id="bottom" href="index.html">Click here to go to top of the page</a>
+            <br>
+            <br>
+            <a  href="index.html">Click here to go to top of the page</a>
+<h1 id="bottom">Bottom of the page</h1>
+    </body>
+</html>
